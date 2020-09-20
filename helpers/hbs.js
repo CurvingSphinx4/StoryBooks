@@ -37,7 +37,7 @@ module.exports = {
         )
         .replace(
             new RegExp('>' + selected + '</option>'),
-            ' selected="selected$&"'
+            ' selected="selected"$&'
         )
     }
 }
